@@ -1,7 +1,9 @@
-# 600-sound-volume
+# 600% Sound Volume
 
 [600% Sound Volume](https://addons.mozilla.org/en-US/firefox/addon/600-sound-volume/), but the ads/tracking (about which
 the author blatantly lies in their privacy policy) have been removed.
+
+![](screenshots/screenshot.jpg)
 
 # Download
 
