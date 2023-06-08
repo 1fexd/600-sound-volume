@@ -1,0 +1,69 @@
+{
+  "manifest_version": 2,
+  "version": "1.5.0",
+  "default_locale": "en",
+  "name": "__MSG_app_name__",
+  "short_name": "__MSG_app_short_name__",
+  "description": "__MSG_app_description__",
+  "icons": {
+    "16": "icons/icon_16.png",
+    "20": "icons/icon_20.png",
+    "24": "icons/icon_20.png",
+    "32": "icons/icon_32.png",
+    "48": "icons/icon_48.png",
+    "64": "icons/icon_64.png",
+    "128": "icons/icon_128.png",
+    "256": "icons/icon_256.png",
+    "512": "icons/icon_512.png"
+  },
+  "browser_action": {
+    "default_title": "__MSG_app_name__",
+    "default_popup": "popup/index.html",
+    "default_icon": {
+      "16": "icons/icon_16.png",
+      "20": "icons/icon_20.png",
+      "24": "icons/icon_20.png",
+      "32": "icons/icon_32.png",
+      "48": "icons/icon_48.png",
+      "64": "icons/icon_64.png",
+      "128": "icons/icon_128.png",
+      "256": "icons/icon_256.png",
+      "512": "icons/icon_512.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "matches": [
+        "<all_urls>"
+      ],
+      "run_at": "document_end",
+      "js": [
+        "js/scripts.js"
+      ]
+    }
+  ],
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "js/background.js"
+    ]
+  },
+  "web_accessible_resources": [
+    "*.*"
+  ],
+  "permissions": [
+    "<all_urls>",
+    "tabs",
+    "activeTab",
+    "storage"
+  ],
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+6"
+      }
+    }
+  }
+}
