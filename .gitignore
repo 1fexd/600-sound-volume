@@ -1,1 +1,4 @@
 /.idea/
+/web-ext-artifacts/
+sign.sh
+/res/
