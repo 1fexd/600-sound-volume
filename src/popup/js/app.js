@@ -260,11 +260,6 @@
                 return t(c)
             }
         }).$mount("#app");
-        window.addEventListener("load", (function () {
-            m().storage.local.get({usageCounter: 0, used: [], permittedToShowBanner: -1}, (function (t) {
-                t.usageCounter > 10 && -1 === t.permittedToShowBanner && (window.location = "ru" === h ? "opt-in-ru.html" : "opt-in-en.html")
-            })), b.init()
-        }))
     }, 7704: function (t) {
         t.exports = JSON.parse('{"headerTitle":"Громкость Звука 600%","headerDescription":"Регулируйте громкость звука текущей вкладки ползунком. Переключайтесь на любую вкладку со звуком одним кликом.","volumeLabel":"Громкость:","tabsLabel":"Вкладки со звуком","noTabsLabel":"Вкладок со звуком нет","rateItLabel":"Оценить!","if_you_like_title":"","if_you_like_message":"Если нравится \\"Громкость звука 600%\\", пожалуйста, оцените это расширение здесь <a href=\\"https://addons.mozilla.org/firefox/addon/600-sound-volume/\\" target=\\"_blank\\" tabindex=\\"-1\\">Firefox Browser Add-ons</a>. Спасибо за ваш отзыв и хорошего дня!","ctrl_shift_v_title":"Совет: Сочетание клавиш","ctrl_shift_v_message":"<strong>Ctrl+Shift+6</strong> - сочетание клавиш для открытия \\"600% Sound Volume\\".","right_after_opening_title":"Совет: используйте клавиши 0 - 6 для регулировки громкости","right_after_opening_message":"Сразу после открытия \\"Громкость звука 600%\\" нажимайте клавиши 0&nbsp;-&nbsp;6 , чтобы изменить громкость с 0&nbsp;% до 600&nbsp;% соответственно.","volume_up_down_title":"Совет: Регулируйте громкость с помощью клавиш со стрелками","volume_up_down_message":"Сразу после открытия \\"Громкость звука 600%\\" нажимайте:<ul><li>&#x2b06;&#xfe0f; или &#x27a1;&#xfe0f; для увеличения громкости</li><li>&#x2b07;&#xfe0f; или &#x2b05;&#xfe0f; для уменьшения громкости</li></ul>","buy_headsets":"Или купить наушники","buy_headphone_amplifier":"Купить усилитель наушников"}')
     }, edd4: function (t) {
