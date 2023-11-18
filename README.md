@@ -7,7 +7,7 @@ the author blatantly lies in their privacy policy) have been removed.
 
 # Download
 
-* [Firefox Add-ons (pending approval)](https://addons.mozilla.org/en-US/firefox/addon/600-sound-volume-privacy/)
+* [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/600-sound-volume-privacy/)
 * [Github releases](https://github.com/1fexd/600-sound-volume/releases)
 
 # Details
