@@ -1,16 +1,3 @@
-japp = document.createElement('script');
-japp.src = resolveExtensionUrl() + 'js/app.js';
-japp.type = 'text/javascript';
-document.body.appendChild(japp);
-
-function resolveExtensionUrl() {
-    if (typeof browser !== 'undefined' && browser.extension && browser.extension.getURL) {
-        return browser.extension.getURL('');
-    } else {
-        return 'chrome-extension://' + chrome.runtime.id + '/';
-    }
-}
-
 window.prevSoundVolume = null;
 window.localSoundVolume = 100;
 
