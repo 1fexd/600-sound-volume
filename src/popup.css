@@ -1,3 +1,46 @@
+:root {
+    --bg: #ffffff;
+    --text: #303030;
+    --text-muted: #a0a0a0;
+    --tab-border: #e0e0e0;
+    --tab-text: #606060;
+    --tab-hover: #f0f0f0;
+    --link-external: #1c70fe;
+    --notif-bg: #cce5ff;
+    --notif-text: #004085;
+    --notif-border: #b8daff;
+    --notif-close: rgba(0, 64, 133, .4);
+    --notif-close-hover: #004085;
+    --tick-color: rgba(0, 0, 0, 0.18);
+    --toggle-bg: transparent;
+    --toggle-border: #d0d0d0;
+    --toggle-hover: #f0f0f0;
+}
+
+html.dark {
+    --bg: #1e1e1e;
+    --text: #e0e0e0;
+    --text-muted: #909090;
+    --tab-border: #333;
+    --tab-text: #aaa;
+    --tab-hover: #2a2a2a;
+    --link-external: #5aabff;
+    --notif-bg: #162435;
+    --notif-text: #7ecbff;
+    --notif-border: #254a6e;
+    --notif-close: rgba(126, 203, 255, .3);
+    --notif-close-hover: #7ecbff;
+    --tick-color: rgba(255, 255, 255, 0.2);
+    --toggle-bg: transparent;
+    --toggle-border: #444;
+    --toggle-hover: #2a2a2a;
+}
+
+html.dark body {
+    background: var(--bg);
+    color: var(--text);
+}
+
 @media (prefers-color-scheme: light) {
     a:hover {
         color: #61dafb
@@ -104,7 +147,7 @@ table {
 }
 
 .link--external {
-    color: #1c70fe
+    color: var(--link-external)
 }
 
 .header {
@@ -123,7 +166,7 @@ table {
 }
 
 .header__description {
-    color: #a0a0a0
+    color: var(--text-muted)
 }
 
 .volume-slider {
@@ -132,7 +175,8 @@ table {
 
 .volume-slider__slider {
     width: 100%;
-    outline: 0
+    outline: 0;
+    margin-top: 12px;
 }
 
 .volume-info {
@@ -144,7 +188,7 @@ table {
 }
 
 .volume-info__volume-max, .volume-info__volume-min {
-    color: #a0a0a0
+    color: var(--text-muted)
 }
 
 .volume-info__volume-current {
@@ -167,12 +211,12 @@ table {
 }
 
 .tab {
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid var(--tab-border);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     text-decoration: none;
-    color: #606060;
+    color: var(--tab-text);
     -webkit-transition-property: background-color;
     transition-property: background-color;
     -webkit-transition-duration: .3s;
@@ -184,7 +228,7 @@ table {
 }
 
 .tab:hover {
-    background-color: #f0f0f0
+    background-color: var(--tab-hover)
 }
 
 .tab__item {
@@ -262,7 +306,63 @@ body {
     line-height: 1.5em;
     font-family: Helvetica Neue, Lucida Grande, sans-serif;
     width: 340px;
-    color: #303030
+    color: var(--text);
+    background: var(--bg);
+    transition: background .2s, color .2s
+}
+
+
+#theme-toggle {
+    position: fixed;
+    top: .6em;
+    right: .6em;
+    background: var(--toggle-bg);
+    border: 1px solid var(--toggle-border);
+    border-radius: .3em;
+    cursor: pointer;
+    font-size: 1em;
+    line-height: 1;
+    width: 2em;
+    height: 2em;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .7;
+    transition: opacity .2s, background .2s
+}
+
+#theme-toggle:hover {
+    opacity: 1;
+    background: var(--toggle-hover)
+}
+
+.slider-ticks-wrap {
+    position: absolute;
+    pointer-events: none;
+    z-index: 0
+}
+
+.slider-ticks-wrap span {
+    position: absolute;
+    width: 2px;
+    height: 65%;
+    top: 17%;
+    background: var(--tick-color);
+    transform: translateX(-50%)
+}
+
+html.dark .volume-slider button {
+    background: #2a2a2a;
+    color: var(--text);
+    outline: 1px solid #444;
+    outline-offset: -1px;
+    border-radius: .2em;
+    cursor: pointer
+}
+
+html.dark .volume-slider button:hover {
+    background: #363636
 }
 
 .stars {
