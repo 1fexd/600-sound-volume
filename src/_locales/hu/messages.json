@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "600% Hangerő"
+  },
+  "shortDesc": {
+    "message": "Akár 600%-os hangerőnövelés"
+  },
+  "storeDesc": {
+    "message": "**A legegyszerűbb és legmegbízhatóbb hangerőnövelő**\n\n🚀 Jellemzők\n\n⭐️ Akár 600 % hangerőnövelés\n⭐️ Bármely fül hangerőszabályozása\n⭐️ Beszédhang erősítés - megkönnyíti a párbeszédek és podcastok hallgatását\n⭐️ Finomhangolt vezérlés: 0 % - 600 %\n⭐️ Egy kattintással válthat bármelyik audio lejátszó fülre\n\n🚀 Mit mondanak a felhasználók\n\n⭐️ \"Pontosan azt csinálja, amit ígér.\"\n⭐️ \"Több próbálkozás után ez volt a legjobb. Köszönöm!\"\n⭐️ \"Amit szeretek benne, hogy egyszerűen működik :)\"\n⭐️ \"Pontosan azt kerestem!\"\n⭐️ \"Határozottan a legjobb, és hibátlanul működik.\"\n⭐️ \"Végre mindent hallgathatok, amit szeretnék. Nagyon ajánlom.\"\n\n⁉️ Kedves felhasználó, kérjük, vegye figyelembe:\n\nNéhány videó néma lehet az add-on használata után a következő hiba miatt: \"A createMediaElementSource-hoz átadott HTMLMediaElement kereszt-eredetű erőforrást tartalmaz, a csomópont csendet fog kiadni.\" Sajnos évek óta nem tudtuk megoldani ezt a problémát.😟 Lehet, hogy ez egy Firefox hiba.\n\nKérjük, legyen türelemmel.🙏 Frissítse az oldalt a videóval, és újra le kellene játszania."
+  }
+}

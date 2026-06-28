@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "600% Volum Sunet"
+  },
+  "shortDesc": {
+    "message": "Până la 600% creștere a volumului"
+  },
+  "storeDesc": {
+    "message": "**Cel mai simplu și fiabil amplificator de volum**\n\n🚀 Caracteristici\n\n⭐️ Amplificare a volumului de până la 600 %\n⭐️ Controlul volumului pentru orice tab\n⭐️ Amplificare vocală - face dialogurile și podcasturile mai ușor de auzit\n⭐️ Control detaliat: 0 % - 600 %\n⭐️ Comutare pe orice tab care redă audio cu un singur clic\n\n🚀 Ce spun utilizatorii\n\n⭐️ \"Face exact ceea ce spune că face.\"\n⭐️ \"Am încercat câteva. Acesta a fost cel mai bun. Mulțumesc!\"\n⭐️ \"Ce îmi place la el este că pur și simplu funcționează :)\"\n⭐️ \"Exact ceea ce căutam!\"\n⭐️ \"Cu siguranță cel mai bun și funcționează fără probleme.\"\n⭐️ \"În sfârșit pot asculta tot ce vreau. Îl recomand cu căldură.\"\n\n⁉️Dragă utilizator, te rugăm să reții:\n\nCâteva videoclipuri pot deveni silențioase după utilizarea extensiei din cauza erorii: \"HTMLMediaElement-ul trecut pentru createMediaElementSource are o resursă cross-origin, nodul va reda tăcere.\" Din păcate, nu am reușit să rezolvăm această problemă de ani de zile.😟 Ar putea fi un bug Firefox.\n\nTe rugăm să ai răbdare.🙏 Reîncarcă pagina cu videoclipul, și ar trebui să redea din nou."
+  }
+}

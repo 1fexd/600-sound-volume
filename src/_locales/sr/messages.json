@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "600% Jačina zvuka"
+  },
+  "shortDesc": {
+    "message": "Povećanje jačine zvuka do 600%"
+  },
+  "storeDesc": {
+    "message": "**Najjednostavniji i najpouzdaniji pojačivač jačine zvuka**\n\n🚀 Karakteristike\n\n⭐️ Pojačanje jačine zvuka do 600 %\n⭐️ Kontrola jačine zvuka bilo koje kartice\n⭐️ Pojačanje glasa - olakšava slušanje dijaloga i podkasta\n⭐️ Precizna kontrola: 0 % - 600 %\n⭐️ Prebacivanje na bilo koju karticu koja reprodukuje zvuk jednim klikom\n\n🚀 Šta korisnici kažu\n\n⭐️ \"Radi tačno ono što kaže da radi.\"\n⭐️ \"Isprobao sam nekoliko. Ovaj je bio najbolji. Hvala!\"\n⭐️ \"Ono što volim kod njega je to što jednostavno funkcioniše :)\"\n⭐️ \"Tačno ono što sam tražio!\"\n⭐️ \"Definitivno najbolji i radi besprekorno.\"\n⭐️ \"Napokon mogu slušati sve što želim. Toplo preporučujem.\"\n\n⁉️Dragi korisniče, molimo vas da obratite pažnju:\n\nNekoliko videa može postati tiho nakon korišćenja dodatka zbog greške: \"HTMLMediaElement prosleđen za createMediaElementSource ima resurs sa različitih izvora, čvor će ispuštati tišinu.\" Nažalost, nismo mogli da rešimo ovaj problem godinama.😟 Moguće je da je to greška u Firefox-u.\n\nMolimo vas za strpljenje.🙏 Ponovo učitajte stranicu sa videom, i trebalo bi da ponovo počne da se reprodukuje."
+  }
+}

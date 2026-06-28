@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "Volumen de sonido al 600%"
+  },
+  "shortDesc": {
+    "message": "Aumento de volumen de hasta el 600%"
+  },
+  "storeDesc": {
+    "message": "**El potenciador de volumen más simple y confiable**\n\n🚀 Características\n\n⭐️ Aumento de volumen de hasta el 600 %\n⭐️ Controla el volumen de cualquier pestaña\n⭐️ Aumento de voz: facilita escuchar diálogos y pódcast\n⭐️ Control detallado: 0 % - 600 %\n⭐️ Cambia a cualquier pestaña que esté reproduciendo audio con un solo clic\n\n🚀 Lo que dicen los usuarios\n\n⭐️ \"Hace exactamente lo que dice que hace.\"\n⭐️ \"Probé un par. Este fue el mejor. ¡Gracias!\"\n⭐️ \"Lo que me encanta es que simplemente funciona :)\"\n⭐️ \"¡Exactamente lo que estaba buscando!\"\n⭐️ \"Definitivamente el mejor y funciona a la perfección.\"\n⭐️ \"Finalmente puedo escuchar todo lo que quiero. Lo recomiendo mucho.\"\n\n⁉️Estimado usuario, por favor ten en cuenta:\n\nAlgunos videos pueden quedar en silencio después de usar la extensión debido al error: \"El HTMLMediaElement pasado a createMediaElementSource tiene un recurso de origen cruzado, el nodo producirá silencio.\" Desafortunadamente, no hemos podido resolver este problema durante años.😟 Podría ser un error de Firefox.\n\nPor favor, ten paciencia.🙏 Recarga la página con el video, y debería reproducirse nuevamente."
+  }
+}

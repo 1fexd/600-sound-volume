@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "Volum de so del 600%"
+  },
+  "shortDesc": {
+    "message": "Augment de volum de fins al 600%"
+  },
+  "storeDesc": {
+    "message": "**El potenciador de volum més senzill i fiable**\n\n🚀 Característiques\n\n⭐️ Fins a un augment de volum del 600 %\n⭐️ Controla el volum de qualsevol pestanya\n⭐️ Augment de veu - facilita l'escolta de diàlegs i podcasts\n⭐️ Control detallat: 0 % - 600 %\n⭐️ Canvia a qualsevol pestanya que estigui reproduint àudio amb només un clic\n\n🚀 El que diuen els usuaris\n\n⭐️ \"Fa exactament el que diu que fa.\"\n⭐️ \"He provat uns quants. Aquest és el millor. Gràcies!\"\n⭐️ \"El que m'encanta és que simplement funciona :)\"\n⭐️ \"Exactament el que estava buscant!\"\n⭐️ \"Definitivament el millor i funciona perfectament.\"\n⭐️ \"Finalment puc escoltar tot el que vull. Ho recomano molt.\"\n\n⁉️ Estimat usuari, si us plau, tingueu en compte:\n\nAlguns vídeos poden quedar en silenci després d'utilitzar l'extensió a causa de l'error: \"L'HTMLMediaElement passat a createMediaElementSource té un recurs d'origen creuat, el node produirà silenci.\" Malauradament, no hem pogut resoldre aquest problema durant anys.😟 Potser és un error de Firefox.\n\nSi us plau, sigueu pacients.🙏 Torneu a carregar la pàgina amb el vídeo, i hauria de reproduir-se de nou."
+  }
+}

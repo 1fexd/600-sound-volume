@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "Volume de Som a 600%"
+  },
+  "shortDesc": {
+    "message": "Aumento de volume até 600%"
+  },
+  "storeDesc": {
+    "message": "**O potenciador de volume mais simples e fiável**\n\n🚀 Funcionalidades\n\n⭐️ Aumento de volume até 600%\n⭐️ Controlar o volume de qualquer aba\n⭐️ Aumento de voz - torna diálogos e podcasts mais fáceis de ouvir\n⭐️ Controlo fino: 0% - 600%\n⭐️ Mudar para qualquer aba que esteja a reproduzir áudio com apenas um clique\n\n🚀 O que os utilizadores dizem\n\n⭐️ \"Faz exatamente o que diz que faz.\"\n⭐️ \"Experimentei alguns. Este foi o melhor. Obrigado!\"\n⭐️ \"O que adoro é que simplesmente funciona :)\"\n⭐️ \"Exatamente o que estava à procura!\"\n⭐️ \"Definitivamente o melhor e funciona sem falhas.\"\n⭐️ \"Finalmente posso ouvir tudo o que quero. Recomendo vivamente.\"\n\n⁉️ Caro utilizador, por favor note:\n\nAlguns vídeos podem ficar sem som após usar a extensão devido ao erro: \"O HTMLMediaElement passado para createMediaElementSource tem um recurso de origem cruzada, o nó irá emitir silêncio.\" Infelizmente, não conseguimos resolver este problema há anos.😟 Pode ser um bug do Firefox.\n\nPor favor, tenha paciência.🙏 Recarregue a página com o vídeo, e deverá reproduzir novamente."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "600% Głośność Dźwięku"
+  },
+  "shortDesc": {
+    "message": "Do 600% zwiększenia głośności dźwięku"
+  },
+  "storeDesc": {
+    "message": "**Najprostszy i najbardziej niezawodny wzmacniacz głośności**\n\n🚀 Funkcje\n\n⭐️ Wzrost głośności do 600 %\n⭐️ Kontrola głośności dowolnej karty\n⭐️ Wzmocnienie głosu - ułatwia słyszenie dialogów i podcastów\n⭐️ Precyzyjna kontrola: 0 % - 600 %\n⭐️ Przełączanie do dowolnej karty odtwarzającej dźwięk jednym kliknięciem\n\n🚀 Co mówią użytkownicy\n\n⭐️ \"Robi dokładnie to, co obiecuje.\"\n⭐️ \"Próbowałem kilku. Ten był najlepszy. Dzięki!\"\n⭐️ \"To, co w nim uwielbiam, to że po prostu działa :)\"\n⭐️ \"Dokładnie to, czego szukałem!\"\n⭐️ \"Zdecydowanie najlepszy i działa bez zarzutu.\"\n⭐️ \"W końcu mogę słuchać wszystkiego, co chcę. Gorąco polecam.\"\n\n⁉️ Drogi użytkowniku, proszę zwróć uwagę:\n\nKilka filmów może stać się cichych po użyciu dodatku z powodu błędu: \"HTMLMediaElement przekazany do createMediaElementSource ma zasób z innego źródła, węzeł będzie wydawał ciszę.\" Niestety, nie udało nam się rozwiązać tego problemu od lat.😟 Może to być błąd Firefoksa.\n\nProszę o cierpliwość.🙏 Odśwież stronę z filmem, a powinien znowu odtwarzać."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "600% Äänenvoimakkuus"
+  },
+  "shortDesc": {
+    "message": "Jopa 600% äänenvoimakkuuden lisäys"
+  },
+  "storeDesc": {
+    "message": "**Yksinkertaisin ja luotettavin äänenvoimakkuuden nostaja**\n\n🚀 Ominaisuudet\n\n⭐️ Jopa 600 % äänenvoimakkuuden lisäys\n⭐️ Hallitse minkä tahansa välilehden äänenvoimakkuutta\n⭐️ Äänivahvistus - helpottaa dialogien ja podcastien kuulemista\n⭐️ Tarkka säätö: 0 % - 600 %\n⭐️ Siirry mihin tahansa ääntä toistavaan välilehteen yhdellä napsautuksella\n\n🚀 Mitä käyttäjät sanovat\n\n⭐️ \"Tekee juuri sen, mitä lupaa.\"\n⭐️ \"Kokeilin muutamaa. Tämä oli paras. Kiitos!\"\n⭐️ \"Mikä minua siinä viehättää, on se, että se vain toimii :)\"\n⭐️ \"Juuri sitä, mitä etsin!\"\n⭐️ \"Ehdottomasti paras ja toimii moitteettomasti.\"\n⭐️ \"Voin vihdoin kuunnella kaikkea, mitä haluan. Suosittelen lämpimästi.\"\n\n⁉️ Hyvä käyttäjä, huomioithan:\n\nMuutamat videot saattavat jäädä hiljaisiksi lisäosan käytön jälkeen virheen vuoksi: \"HTMLMediaElement, joka on annettu createMediaElementSource-funktiolle, sisältää ristiin alkuperäisen resurssin, solmu tuottaa hiljaisuutta.\" Valitettavasti emme ole pystyneet ratkaisemaan tätä ongelmaa vuosiin.😟 Se saattaa olla Firefoxin bugi.\n\nOle kärsivällinen.🙏 Lataa sivu, jossa video on, ja sen pitäisi toistaa uudelleen."
+  }
+}

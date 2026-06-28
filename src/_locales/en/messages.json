@@ -1,11 +1,11 @@
 {
-   "app_description": {
-      "message": "Up to 600% volume boost"
-   },
-   "app_name": {
-      "message": "600% Sound Volume"
-   },
-   "app_short_name": {
-      "message": "600% Volume"
-   }
+  "appName": {
+    "message": "600% Sound Volume"
+  },
+  "shortDesc": {
+    "message": "Up to 600% volume boost"
+  },
+  "storeDesc": {
+    "message": "**The simplest and most reliable volume booster**\n\n🚀 Features\n\n⭐️ Up to 600 % volume boost\n⭐️ Control volume of any tab\n⭐️ Voice boost - makes dialogues and podcasts easier to hear\n⭐️ Fine-grained control: 0 % - 600 %\n⭐️ Switch to any tab playing audio with just one click\n\n🚀 What users say\n\n⭐️ \"Does exactly what it says it does.\"\n⭐️ \"Tried a couple. This one was the best. Thanks!\"\n⭐️ \"What I love about it that it just works :)\"\n⭐️ \"Exactly what I was looking for!\"\n⭐️ \"Definitely the best one and works flawlessly.\"\n⭐️ \"I can finally listen to everything I want. I highly recommend it.\"\n\n⁉️Dear user, please note:\n\nA few videos may become silent after using the add-on due to the error: \"The HTMLMediaElement passed to createMediaElementSource has a cross-origin resource, the node will output silence.\" Unfortunately, we haven't been able to resolve this issue for years.😟It might be a Firefox bug.\n\nPlease be patient.🙏Reload the page with the video, and it should play again."
+  }
 }

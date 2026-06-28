@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "Volume sonore à 600 %"
+  },
+  "shortDesc": {
+    "message": "Augmentation du volume jusqu'à 600 %"
+  },
+  "storeDesc": {
+    "message": "**Le booster de volume le plus simple et le plus fiable**\n\n🚀 Fonctionnalités\n\n⭐️ Augmentation du volume jusqu'à 600 %\n⭐️ Contrôle du volume de n'importe quel onglet\n⭐️ Amplification de la voix - rend les dialogues et les podcasts plus faciles à entendre\n⭐️ Contrôle précis : 0 % - 600 %\n⭐️ Passez à n'importe quel onglet diffusant de l'audio d'un simple clic\n\n🚀 Ce que disent les utilisateurs\n\n⭐️ \"Fait exactement ce qu'il dit faire.\"\n⭐️ \"J'en ai essayé quelques-uns. Celui-ci était le meilleur. Merci !\"\n⭐️ \"Ce que j'aime, c'est que ça fonctionne tout simplement :)\"\n⭐️ \"Exactement ce que je cherchais !\"\n⭐️ \"Définitivement le meilleur et fonctionne parfaitement.\"\n⭐️ \"Je peux enfin écouter tout ce que je veux. Je le recommande vivement.\"\n\n⁉️Cher utilisateur, veuillez noter :\n\nQuelques vidéos peuvent devenir silencieuses après avoir utilisé l'extension en raison de l'erreur : \"L'HTMLMediaElement passé à createMediaElementSource a une ressource cross-origin, le nœud produira du silence.\" Malheureusement, nous n'avons pas pu résoudre ce problème depuis des années.😟 Cela pourrait être un bug de Firefox.\n\nVeuillez être patient.🙏 Rechargez la page avec la vidéo, et elle devrait se lire à nouveau."
+  }
+}

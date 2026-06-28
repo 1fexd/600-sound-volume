@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "600% Volume Suara"
+  },
+  "shortDesc": {
+    "message": "Peningkatan volume hingga 600%"
+  },
+  "storeDesc": {
+    "message": "**Peningkat Volume Terpercaya dan Paling Sederhana**\n\n🚀 Fitur\n\n⭐️ Peningkatan volume hingga 600 %\n⭐️ Kontrol volume dari tab mana pun\n⭐️ Peningkatan suara - membuat dialog dan podcast lebih mudah didengar\n⭐️ Kontrol yang halus: 0 % - 600 %\n⭐️ Beralih ke tab mana pun yang memutar audio hanya dengan satu klik\n\n🚀 Apa kata pengguna\n\n⭐️ \"Melakukan persis apa yang dikatakannya.\"\n⭐️ \"Mencoba beberapa. Yang ini yang terbaik. Terima kasih!\"\n⭐️ \"Apa yang saya suka adalah ini benar-benar berfungsi :)\"\n⭐️ \"Tepat apa yang saya cari!\"\n⭐️ \"Pasti yang terbaik dan berfungsi tanpa cacat.\"\n⭐️ \"Akhirnya saya bisa mendengarkan semua yang saya inginkan. Saya sangat merekomendasikannya.\"\n\n⁉️Pengguna yang terhormat, harap diperhatikan:\n\nBeberapa video mungkin menjadi diam setelah menggunakan ekstensi ini karena kesalahan: \"HTMLMediaElement yang diteruskan untuk createMediaElementSource memiliki sumber lintas asal, node akan mengeluarkan keheningan.\" Sayangnya, kami belum dapat menyelesaikan masalah ini selama bertahun-tahun.😟 Ini mungkin bug Firefox.\n\nHarap bersabar.🙏 Muat ulang halaman dengan video, dan seharusnya bisa diputar lagi."
+  }
+}

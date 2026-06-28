@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "600% Skaņas skaļums"
+  },
+  "shortDesc": {
+    "message": "Līdz 600% skaņas skaļuma palielināšana"
+  },
+  "storeDesc": {
+    "message": "**Vienkāršākais un uzticamākais skaļuma pastiprinātājs**\n\n🚀 Iespējas\n\n⭐️ Līdz 600 % skaļuma palielinājums  \n⭐️ Kontrolējiet jebkura cilnes skaļumu  \n⭐️ Balss pastiprināšana - padara dialogus un podkāstus vieglāk dzirdamus  \n⭐️ Smalks regulējums: 0 % - 600 %  \n⭐️ Pārslēdzieties uz jebkuru cilni, kas atskaņo audio, ar vienu klikšķi  \n\n🚀 Ko saka lietotāji\n\n⭐️ \"Darbojas tieši tā, kā solīts.\"  \n⭐️ \"Izmēģināju dažus. Šis bija labākais. Paldies!\"  \n⭐️ \"Man patīk, ka tas vienkārši darbojas :)\"  \n⭐️ \"Tieši tas, ko meklēju!\"  \n⭐️ \"Noteikti labākais un darbojas nevainojami.\"  \n⭐️ \"Es beidzot varu klausīties visu, ko vēlos. Iesaku!\"  \n\n⁉️Cienījamais lietotāj, lūdzu, ņemiet vērā:\n\nDaži video var kļūt klusējoši pēc paplašinājuma izmantošanas, jo rodas kļūda: \"HTMLMediaElement, kas nodots createMediaElementSource, satur krusts-vietnes resursu, mezgls izvadīs klusumu.\" Diemžēl mēs gadiem ilgi neesam spējuši atrisināt šo problēmu.😟 Iespējams, ka tas ir Firefox kļūda.\n\nLūdzu, esiet pacietīgi.🙏 Atjaunojiet lapu ar video, un tas vajadzētu atskaņot atkal."
+  }
+}
