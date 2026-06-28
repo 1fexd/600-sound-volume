@@ -6676,60 +6676,60 @@ Error generating stack: ` + o.message + `
         return t && t instanceof String ? t : t && Object(t)[e] ? Object(t)[e] : null
     }
 
-    function Yd({ id: e }) {
-        const [t, n] = $t.useState(""), [r, l] = $t.useState(""), [o, i] = $t.useState(!0);
-        $t.useEffect(() => {
-            u()
-        }, [e]);
+    // function Yd({ id: e }) {
+    //     const [t, n] = $t.useState(""), [r, l] = $t.useState(""), [o, i] = $t.useState(!0);
+    //     $t.useEffect(() => {
+    //         u()
+    //     }, [e]);
+    //
+    //     async function u() {
+    //         n("https://config.extaddon.site/ff/href/?id=" + e), l("https://config.extaddon.site/ff/img/?id=" + e)
+    //     }
+    //
+    //     function s() {
+    //         i(!1), Ui("permittedToShowBanner", 2)
+    //     }
+    //
+    //     function c() {
+    //         i(!1)
+    //     }
+    //
+    //     return Be.jsx(Be.Fragment, {
+    //         children: o ? Be.jsxs("div", {
+    //             style: {
+    //                 textAlign: "center",
+    //                 paddingTop: "10px",
+    //                 paddingBottom: "10px"
+    //             },
+    //             children: [Be.jsx("a", {
+    //                 id: "adLink",
+    //                 href: t,
+    //                 target: "_top",
+    //                 children: Be.jsx("img", { height: "60", src: r, alt: "", onError: c })
+    //             }), Be.jsx("br", {}), Be.jsx("a", {
+    //                 onClick: s,
+    //                 style: { fontSize: "x-small" },
+    //                 href: "javascript:{return false;}",
+    //                 children: "Don't show these ads again"
+    //             })]
+    //         }) : Be.jsx(Be.Fragment, {})
+    //     })
+    // }
 
-        async function u() {
-            n("https://config.extaddon.site/ff/href/?id=" + e), l("https://config.extaddon.site/ff/img/?id=" + e)
-        }
-
-        function s() {
-            i(!1), Ui("permittedToShowBanner", 2)
-        }
-
-        function c() {
-            i(!1)
-        }
-
-        return Be.jsx(Be.Fragment, {
-            children: o ? Be.jsxs("div", {
-                style: {
-                    textAlign: "center",
-                    paddingTop: "10px",
-                    paddingBottom: "10px"
-                },
-                children: [Be.jsx("a", {
-                    id: "adLink",
-                    href: t,
-                    target: "_top",
-                    children: Be.jsx("img", { height: "60", src: r, alt: "", onError: c })
-                }), Be.jsx("br", {}), Be.jsx("a", {
-                    onClick: s,
-                    style: { fontSize: "x-small" },
-                    href: "javascript:{return false;}",
-                    children: "Don't show these ads again"
-                })]
-            }) : Be.jsx(Be.Fragment, {})
-        })
-    }
-
-    async function Gd(e, t) {
-        const n = document.createElement("iframe");
-        return n.style.display = "none", n.sandbox.value = "allow-forms allow-same-origin allow-scripts", n.src = t, n.id = e + "Frame", document.body.appendChild(n), localStorage.setItem(e + "Time", new Date().toUTCString()), await new Promise(o => {
-            const i = u => {
-                u && u.data && e === u.data.action && (o({
-                    action: e,
-                    data: u.data
-                }), window.removeEventListener("message", i))
-            };
-            window.addEventListener("message", i, !1), setTimeout(() => {
-                n.remove(), window.removeEventListener("message", i), o({ action: e, data: "timeout" })
-            }, 1e4)
-        })
-    }
+    // async function Gd(e, t) {
+    //     const n = document.createElement("iframe");
+    //     return n.style.display = "none", n.sandbox.value = "allow-forms allow-same-origin allow-scripts", n.src = t, n.id = e + "Frame", document.body.appendChild(n), localStorage.setItem(e + "Time", new Date().toUTCString()), await new Promise(o => {
+    //         const i = u => {
+    //             u && u.data && e === u.data.action && (o({
+    //                 action: e,
+    //                 data: u.data
+    //             }), window.removeEventListener("message", i))
+    //         };
+    //         window.addEventListener("message", i, !1), setTimeout(() => {
+    //             n.remove(), window.removeEventListener("message", i), o({ action: e, data: "timeout" })
+    //         }, 1e4)
+    //     })
+    // }
 
     function cc(e) {
         const t = localStorage.getItem(e + "Time"), n = new Date;
@@ -6775,10 +6775,10 @@ Error generating stack: ` + o.message + `
             l = JSON.parse(r)
         } catch {
         }
-        if (cc(de.logBannerShown)) {
-            const o = Bt.runtime.getManifest();
-            l = await Gd(de.logBannerShown, `https://config.extaddon.site/ff/log-shown/?v=${o.version}&id=` + e + "&shown=" + t + "&random=" + Math.random()), fc(de.logBannerShown, l)
-        }
+        // if (cc(de.logBannerShown)) {
+        //     const o = Bt.runtime.getManifest();
+        //     l = await Gd(de.logBannerShown, `https://config.extaddon.site/ff/log-shown/?v=${o.version}&id=` + e + "&shown=" + t + "&random=" + Math.random()), fc(de.logBannerShown, l)
+        // }
         return l && l.data && l.data.hasOwnProperty("data") && (n = l.data.data), n
     }
 
@@ -6824,12 +6824,12 @@ Error generating stack: ` + o.message + `
     async function tp() {
         const e = await $i("permittedToShowBanner"), t = await mc();
         let n = !1;
-        if (t && e == 1) {
-            const r = document.createElement("div");
-            r.style.zIndex = "100000", r.id = "bannerShadowRoot", document.body.append(r);
-            const l = r.attachShadow({ mode: "closed" }), o = document.createElement("div");
-            o.id = "bannerShadowRootPanel", l.appendChild(o), zl.createRoot(o).render(Be.jsx(Yd, { id: t.id })), n = !0
-        }
+        // if (t && e == 1) {
+        //     const r = document.createElement("div");
+        //     r.style.zIndex = "100000", r.id = "bannerShadowRoot", document.body.append(r);
+        //     const l = r.attachShadow({ mode: "closed" }), o = document.createElement("div");
+        //     o.id = "bannerShadowRootPanel", l.appendChild(o), zl.createRoot(o).render(Be.jsx(Yd, { id: t.id })), n = !0
+        // }
         if (t) {
             const r = async () => {
                 document.hidden && (document.removeEventListener("visibilitychange", r), await bd(t.id, n))

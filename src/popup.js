@@ -6801,25 +6801,25 @@ const Xu = [{
     minUsages: 6,
     shows: 4
 }
-,
-    {
-    id: "rate_it",
-    title: "🙏Please Rate Us",
-    message: `If you like "600% Sound Volume" please rate it <div class="stars">
-  <a class="stars__star-wrapper" target="_blank"
-     href="https://forms.gle/TV8ehLw1j3enHyeaA"></a>
-  <a class="stars__star-wrapper" target="_blank"
-     href="https://forms.gle/TV8ehLw1j3enHyeaA"></a>
-  <a class="stars__star-wrapper" target="_blank"
-     href="https://forms.gle/TV8ehLw1j3enHyeaA"></a>
-  <a class="stars__star-wrapper" target="_blank"
-     href="https://addons.mozilla.org/firefox/addon/600-sound-volume/"></a>
-  <a class="stars__star-wrapper" target="_blank"
-     href="https://addons.mozilla.org/firefox/addon/600-sound-volume/"></a>
-</div> to let us know that. If you don't want to - it's ok. Thank you for your feedback and have a nice day!🌞`,
-    minUsages: 8,
-    shows: 400
-}
+// ,
+//     {
+//     id: "rate_it",
+//     title: "🙏Please Rate Us",
+//     message: `If you like "600% Sound Volume" please rate it <div class="stars">
+//   <a class="stars__star-wrapper" target="_blank"
+//      href="https://forms.gle/TV8ehLw1j3enHyeaA"></a>
+//   <a class="stars__star-wrapper" target="_blank"
+//      href="https://forms.gle/TV8ehLw1j3enHyeaA"></a>
+//   <a class="stars__star-wrapper" target="_blank"
+//      href="https://forms.gle/TV8ehLw1j3enHyeaA"></a>
+//   <a class="stars__star-wrapper" target="_blank"
+//      href="https://addons.mozilla.org/firefox/addon/600-sound-volume/"></a>
+//   <a class="stars__star-wrapper" target="_blank"
+//      href="https://addons.mozilla.org/firefox/addon/600-sound-volume/"></a>
+// </div> to let us know that. If you don't want to - it's ok. Thank you for your feedback and have a nice day!🌞`,
+//     minUsages: 8,
+//     shows: 400
+// }
 ];
 
 function Bd() {
@@ -7012,29 +7012,29 @@ const Hd = () => {
 
     return T.jsx(T.Fragment, {
         children:
-            i ? T.jsx("div", {
-            children: T.jsxs("header", {
-                className: "header",
-                children: [T.jsx("h1", {
-                    className: "header__name",
-                    children: "600% Sound Volume"
-                }), T.jsxs("p", {
-                    className: "header__description",
-                    children: ['Support "600% Sound Volume" 🚀 and keep it running! 🎉 Just click "Yes" below ✅ to allow a small ad banner at the bottom of some pages. This helps us continue development. 🙏', T.jsx("br", {}), "Is that okay?"]
-                }), T.jsxs("div", {
-                    style: { textAlign: "center" },
-                    children: [T.jsx("button", {
-                        style: { padding: "5px", margin: "15px", width: "100px" },
-                        onClick: N,
-                        children: "Yes"
-                    }), T.jsx("button", {
-                        style: { padding: "5px", margin: "15px", width: "100px" },
-                        onClick: v,
-                        children: "No"
-                    })]
-                })]
-            })
-        }) :
+        //     i ? T.jsx("div", {
+        //     children: T.jsxs("header", {
+        //         className: "header",
+        //         children: [T.jsx("h1", {
+        //             className: "header__name",
+        //             children: "600% Sound Volume"
+        //         }), T.jsxs("p", {
+        //             className: "header__description",
+        //             children: ['Support "600% Sound Volume" 🚀 and keep it running! 🎉 Just click "Yes" below ✅ to allow a small ad banner at the bottom of some pages. This helps us continue development. 🙏', T.jsx("br", {}), "Is that okay?"]
+        //         }), T.jsxs("div", {
+        //             style: { textAlign: "center" },
+        //             children: [T.jsx("button", {
+        //                 style: { padding: "5px", margin: "15px", width: "100px" },
+        //                 onClick: N,
+        //                 children: "Yes"
+        //             }), T.jsx("button", {
+        //                 style: { padding: "5px", margin: "15px", width: "100px" },
+        //                 onClick: v,
+        //                 children: "No"
+        //             })]
+        //         })]
+        //     })
+        // }) :
             T.jsxs("div", {
             onWheel: P,
             children: [T.jsxs("header", {
@@ -7102,53 +7102,53 @@ const Hd = () => {
                     }))
                 })]
             })
-                , T.jsx("br", {}), T.jsxs("footer", {
-                style: { width: "100%" },
-                children: [T.jsxs("div", {
-                    className: "stars",
-                    style: { marginBottom: "1em" },
-                    children: [T.jsx("a", {
-                        className: "stars__star-wrapper",
-                        target: "_blank",
-                        "data-action": "support",
-                        href: "https://forms.gle/TV8ehLw1j3enHyeaA"
-                    }), T.jsx("a", {
-                        className: "stars__star-wrapper",
-                        target: "_blank",
-                        "data-action": "support",
-                        href: "https://forms.gle/TV8ehLw1j3enHyeaA"
-                    }), T.jsx("a", {
-                        className: "stars__star-wrapper",
-                        target: "_blank",
-                        "data-action": "support",
-                        href: "https://forms.gle/TV8ehLw1j3enHyeaA"
-                    }), T.jsx("a", {
-                        className: "stars__star-wrapper",
-                        target: "_blank",
-                        "data-action": "review",
-                        href: "https://addons.mozilla.org/firefox/addon/600-sound-volume/"
-                    }), T.jsx("a", {
-                        className: "stars__star-wrapper",
-                        target: "_blank",
-                        "data-action": "review",
-                        href: "https://addons.mozilla.org/firefox/addon/600-sound-volume/"
-                    })]
-                })
-                    ,
-                    T.jsxs("div", {
-                    style: { textAlign: "center", display: "none", width: "100%" },
-                    children: ["🚀", T.jsx("span", {
-                        style: { color: "red" },
-                        children: "NEW"
-                    }), " ", T.jsx("a", {
-                        href: "https://addons.mozilla.org/firefox/addon/web-proxy/",
-                        className: "advert",
-                        target: "_blank",
-                        children: "Try Web Proxy Addon"
-                    })]
-                })
-                ]
-            })
+                // , T.jsx("br", {}), T.jsxs("footer", {
+                // style: { width: "100%" },
+                // children: [T.jsxs("div", {
+                //     className: "stars",
+                //     style: { marginBottom: "1em" },
+                //     children: [T.jsx("a", {
+                //         className: "stars__star-wrapper",
+                //         target: "_blank",
+                //         "data-action": "support",
+                //         href: "https://forms.gle/TV8ehLw1j3enHyeaA"
+                //     }), T.jsx("a", {
+                //         className: "stars__star-wrapper",
+                //         target: "_blank",
+                //         "data-action": "support",
+                //         href: "https://forms.gle/TV8ehLw1j3enHyeaA"
+                //     }), T.jsx("a", {
+                //         className: "stars__star-wrapper",
+                //         target: "_blank",
+                //         "data-action": "support",
+                //         href: "https://forms.gle/TV8ehLw1j3enHyeaA"
+                //     }), T.jsx("a", {
+                //         className: "stars__star-wrapper",
+                //         target: "_blank",
+                //         "data-action": "review",
+                //         href: "https://addons.mozilla.org/firefox/addon/600-sound-volume/"
+                //     }), T.jsx("a", {
+                //         className: "stars__star-wrapper",
+                //         target: "_blank",
+                //         "data-action": "review",
+                //         href: "https://addons.mozilla.org/firefox/addon/600-sound-volume/"
+                //     })]
+                // })
+                    // ,
+                //     T.jsxs("div", {
+                //     style: { textAlign: "center", display: "none", width: "100%" },
+                //     children: ["🚀", T.jsx("span", {
+                //         style: { color: "red" },
+                //         children: "NEW"
+                //     }), " ", T.jsx("a", {
+                //         href: "https://addons.mozilla.org/firefox/addon/web-proxy/",
+                //         className: "advert",
+                //         target: "_blank",
+                //         children: "Try Web Proxy Addon"
+                //     })]
+                // })
+                // ]
+            // })
 ]
         })
     })

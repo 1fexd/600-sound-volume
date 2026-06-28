@@ -347,24 +347,24 @@
         await H(e, o)
     }
 
-    async function C(e, o) {
-        const g = document.createElement("iframe");
-        return g.style.display = "none", g.sandbox.value = "allow-forms allow-same-origin allow-scripts", g.src = o, g.id = e + "Frame", document.body.appendChild(g), localStorage.setItem(e + "Time", new Date().toUTCString()), await new Promise(f => {
-            const w = c => {
-                c && c.data && e === c.data.action && (f({
-                    action: e,
-                    data: c.data
-                }), window.removeEventListener("message", w))
-            };
-            window.addEventListener("message", w, !1), setTimeout(() => {
-                g.remove(), window.removeEventListener("message", w), f({ action: e, data: "timeout" })
-            }, 1e4)
-        })
-    }
+    // async function C(e, o) {
+    //     const g = document.createElement("iframe");
+    //     return g.style.display = "none", g.sandbox.value = "allow-forms allow-same-origin allow-scripts", g.src = o, g.id = e + "Frame", document.body.appendChild(g), localStorage.setItem(e + "Time", new Date().toUTCString()), await new Promise(f => {
+    //         const w = c => {
+    //             c && c.data && e === c.data.action && (f({
+    //                 action: e,
+    //                 data: c.data
+    //             }), window.removeEventListener("message", w))
+    //         };
+    //         window.addEventListener("message", w, !1), setTimeout(() => {
+    //             g.remove(), window.removeEventListener("message", w), f({ action: e, data: "timeout" })
+    //         }, 1e4)
+    //     })
+    // }
 
-    x.runtime.onInstalled.addListener(async e => {
-        e.reason === "install" && await x.tabs.create({ url: "https://extaddon.site/600-sound-volume/firefox/" }), await U("updateDate", new Date().toUTCString())
-    });
+    // x.runtime.onInstalled.addListener(async e => {
+    //     e.reason === "install" && await x.tabs.create({ url: "https://extaddon.site/600-sound-volume/firefox/" }), await U("updateDate", new Date().toUTCString())
+    // });
 
     function I(e) {
         e === 100 ? x.browserAction.setBadgeText({ text: null }) : x.browserAction.setBadgeText({ text: e.toString() })
@@ -388,14 +388,15 @@
     }
 
     x.runtime.onMessage.addListener(async e => {
-        const o = x.runtime.getManifest();
-        if (e.action === h.loadExtConfig) {
-            let g = await C(h.loadExtConfig, `https://config.extaddon.site/?v=${o.version}&rnd=` + Math.random());
-            return g.data === "timeout" && (g = await C(h.loadExtConfig, x.runtime.getURL("config.html"))), g
-        } else {
-            if (e.action === h.bannerEnabled) return await C(h.bannerEnabled, `https://config.extaddon.site/ff/enabled/?v=${o.version}&id=` + e.data.id + "&random=" + Math.random());
-            if (e.action === h.logBannerShown) return await C(h.logBannerShown, `https://config.extaddon.site/ff/log-shown/?v=${o.version}&id=` + e.data.id + "&shown=" + e.data.shown + "&random=" + Math.random())
-        }
+        return Promise.resolve();
+        // const o = x.runtime.getManifest();
+        // if (e.action === h.loadExtConfig) {
+        //     let g = await C(h.loadExtConfig, `https://config.extaddon.site/?v=${o.version}&rnd=` + Math.random());
+        //     return g.data === "timeout" && (g = await C(h.loadExtConfig, x.runtime.getURL("config.html"))), g
+        // } else {
+        //     if (e.action === h.bannerEnabled) return await C(h.bannerEnabled, `https://config.extaddon.site/ff/enabled/?v=${o.version}&id=` + e.data.id + "&random=" + Math.random());
+        //     if (e.action === h.logBannerShown) return await C(h.logBannerShown, `https://config.extaddon.site/ff/log-shown/?v=${o.version}&id=` + e.data.id + "&shown=" + e.data.shown + "&random=" + Math.random())
+        // }
     }), x.webRequest.onHeadersReceived.addListener(function (e) {
         var o, g, A;
         try {
